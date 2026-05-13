@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         New Float floats
 // @namespace    https://github.com/TheSpectralOwl/cs2-userscripts
-// @version      1.0.0
+// @version      1.0.1
 // @description  Displays the min/max float range and adjusted item float below the float bar on CSFloat. Note that you should not trust the exact adjusted float calculations when it gets to many digits beyond the decimal point (ex. for crafting exact floats).
 // @author       SpectralOwl
 // @match        *://*.csfloat.com/*
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/TheSpectralOwl/cs2-userscripts/main/new-float-floats.user.js
+// @downloadURL  https://raw.githubusercontent.com/TheSpectralOwl/cs2-userscripts/main/new-float-floats.user.js
 // ==/UserScript==
 
 (function () {

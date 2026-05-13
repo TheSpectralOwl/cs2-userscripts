@@ -28,11 +28,11 @@ adjusted = (actual - min) / (max - min)
 
 **Note:** Do not rely on the exact adjusted float values to many decimal places (e.g. for crafting exact floats). Floating point precision limits apply.
 
-#### Steam Market Adjusted Floats
+#### Steam Adjusted Floats
 
 > [Install](https://raw.githubusercontent.com/TheSpectralOwl/cs2-userscripts/main/steam-adjusted-floats.user.js)
 
-Adds an "Adjusted Float" line below the Wear Rating on each listing card on the [Steam Community Market Beta](https://steamcommunity.com/market/). Float ranges are looked up from [zwolof/schema-gen](https://github.com/zwolof/schema-gen) and cached locally for 24 hours.
+Adds an "Adjusted Float" line below the Wear Rating on the [Steam Community Market Beta](https://steamcommunity.com/market/) and on Steam inventory pages. Float ranges are looked up from [zwolof/schema-gen](https://github.com/zwolof/schema-gen) and cached locally for 24 hours.
 
 Requires `GM_xmlhttpRequest` support (Violentmonkey, Tampermonkey, etc.).
 

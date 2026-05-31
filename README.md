@@ -36,6 +36,14 @@ Adds an "Adjusted Float" line below the Wear Rating on the [Steam Community Mark
 
 Requires `GM_xmlhttpRequest` support (Violentmonkey, Tampermonkey, etc.).
 
+#### Buff163 Adjusted Floats
+
+> [Install](https://raw.githubusercontent.com/TheSpectralOwl/cs2-userscripts/main/buff163-adjusted-floats.user.js)
+
+Adds an adjusted float line below each listing's float value on [Buff163](https://buff.163.com/) goods pages (`/goods/*`). Works on both the sell order table and the item detail popup. Float ranges are looked up from [zwolof/schema-gen](https://github.com/zwolof/schema-gen) and cached locally for 24 hours.
+
+Requires `GM_xmlhttpRequest` support (Violentmonkey, Tampermonkey, etc.).
+
 #### CSFloat Adjusted Floats
 
 > [Install](https://raw.githubusercontent.com/TheSpectralOwl/cs2-userscripts/main/new-float-floats.user.js)

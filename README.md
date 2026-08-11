@@ -52,6 +52,16 @@ Adds min/max float range and adjusted float below the float bar on [CSFloat](htt
 
 Works with any userscript manager (`@grant none`).
 
+### CSFloat Tweaks
+
+#### Hide "Test skin in server" on Browse
+
+> [Install](https://raw.githubusercontent.com/TheSpectralOwl/cs2-userscripts/main/hide-test-skin-button.user.js)
+
+Removes the "Test skin in server" (inspect) button from the [CSFloat](https://csfloat.com/) search/browse listings to declutter the grid, while keeping it available on individual item pages (`/item/*`).
+
+Works with any userscript manager (`@grant none`).
+
 ## License
 
 [MIT](LICENSE)
